@@ -17,7 +17,7 @@ const ManageOrders = () => {
     };
     return (
         <div className="service-form mt-5 pt-5">
-            <h2><span className="text-color">Order</span></h2>
+            <h2><span className="text-color">Order Here</span></h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input {...register("name", { required: true, maxLength: 20 })} placeholder="Name" />
                 <textarea {...register("description")} placeholder="email" />

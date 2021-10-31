@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { Link } from 'react-router-dom';
 import ManageOrders from '../ManageOrders/ManageOrders';
 import './Detail.css';
 
@@ -21,9 +20,9 @@ const Detail = () => {
                 <hr />
                 <h2>{service.name}</h2>
                 <img className="h-25 w-25" src={service.image} alt="" />
+                <h4>{service.description}</h4>
                 <br />
                 <br />
-                <Link to="/manageorder"><button className="button px-2 rounded">Order Now</button></Link>
             </div>
             <div>
                 <ManageOrders></ManageOrders>

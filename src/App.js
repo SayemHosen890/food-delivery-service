@@ -11,11 +11,9 @@ import Login from './components/Login/Login';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import AddService from './components/AddService/AddService';
 import ManageServices from './components/ManageServices/ManageServices';
-import Order from './components/Order/Order';
 import ManageOrders from './components/ManageOrders/ManageOrders';
 import Combo from './components/Combo/Combo';
 import Register from './components/Register/Register';
-import OrderPlace from './components/OrderPlace/OrderPlace';
 
 function App() {
   return (
@@ -32,9 +30,6 @@ function App() {
             </Route>
             <Route path="/services">
               <Services></Services>
-            </Route>
-            <Route path="/order">
-              <Order></Order>
             </Route>
             <Route path="/manageorder">
               <ManageOrders></ManageOrders>
@@ -53,9 +48,6 @@ function App() {
             </PrivateRoute>
             <Route path="/addService">
               <AddService></AddService>
-            </Route>
-            <Route path="orderplace">
-              <OrderPlace></OrderPlace>
             </Route>
             <Route path="combo">
               <Combo></Combo>
