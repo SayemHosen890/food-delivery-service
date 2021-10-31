@@ -7,7 +7,7 @@ const ManageOrders = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data)
-        axios.post('http://localhost:5000/orders', data)
+        axios.post('https://haunted-village-72031.herokuapp.com/orders', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Ordered Successfully');
@@ -20,9 +20,8 @@ const ManageOrders = () => {
             <h2><span className="text-color">Order</span></h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input {...register("name", { required: true, maxLength: 20 })} placeholder="Name" />
-                <textarea {...register("description")} placeholder="description" />
-                <input type="number" {...register("price")} placeholder="price" />
-                <input {...register("image")} placeholder="image-url" />
+                <textarea {...register("description")} placeholder="email" />
+                <input type="number" {...register("price")} placeholder="number" />
                 <input className="button" type="submit" />
             </form>
         </div>

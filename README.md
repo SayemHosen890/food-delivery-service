@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+Albino Restaurant Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A react Project [Create React App](https://albino-restaurant-website.web.app).
 
-## Available Scripts
-
-In the project directory, you can run:
+*Create With React App
+*Clean code 
+*A dynamic website
+*code declare with component
+*You can order food from here
 
 ### `npm start`
 

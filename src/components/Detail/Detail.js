@@ -9,7 +9,7 @@ const Detail = () => {
     const [service, setService] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${detailId}`)
+        fetch(`https://haunted-village-72031.herokuapp.com/services/${detailId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
