@@ -1,0 +1,10 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    height: 400px;
+    background-color: rgb(115, 127, 139);
+    padding-bottom: 30px;
+    margin-top: 30px;
+}

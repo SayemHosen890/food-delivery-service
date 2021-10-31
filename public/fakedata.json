@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Chicken Burger",
+        "price": "320",
+        "description": "A hamburger is a food, typically considered a sandwich, consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun.",
+        "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+    },
+    {
+        "name": "Mashroom Burger",
+        "price": "420",
+        "description": "In a mixing bowl mix mozzarella cheese with chopped bell pepers, green cilli ( optional), mix herbs, Italian seasoning, and pepper and make the stuffing.",
+        "id": 2,
+        "image": "https://www.simplyrecipes.com/thmb/6-QDzPL3UoZIUJO6ueaW7ncnB4Q=/3900x2600/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Mushroom-Swiss-Burger-LEAD-10-e86ce22657bb4a11b5d4b3f4d1230fe3.jpg"
+    },
+    {
+        "name": "Cheese Pizza",
+        "price": "500",
+        "description": "Pizza is a dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients.",
+        "id": 3,
+        "image": "https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900"
+    },
+    {
+        "name": "Greek Pizza",
+        "price": "750",
+        "description": "Pizza is a dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients.",
+        "id": 4,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Greek_pizza_%281%29.jpg/1200px-Greek_pizza_%281%29.jpg"
+    },
+    {
+        "name": "Chicken Biriyani",
+        "price": "300",
+        "description": "Biryani is a mixed rice dish originating among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat usually that of chicken, goat, lamb, prawn.",
+        "id": 5,
+        "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/9/9/0/FNK_the-best-biryani_H.JPG.rend.hgtvcom.616.462.suffix/1568143107638.jpeg"
+    },
+    {
+        "name": "Beef Biriyani",
+        "price": "500",
+        "description": "In Hyderabad, it is famous as Kalyani biryani, in which buffalo or cow meat is used. This meal was started after the Kalyani Nawabs of Bidar came to Hyderabad sometime.",
+        "id": 6,
+        "image": "https://dwellbymichelle.com/wp-content/uploads/2021/04/Malabar-Beef-biriyani-.jpeg"
+    }
+]

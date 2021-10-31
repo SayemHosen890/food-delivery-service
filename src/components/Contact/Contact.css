@@ -1,0 +1,11 @@
+hr{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.button{
+    background-color: rgb(207, 86, 65);
+    color: white;
+    border: none;
+    padding: 5px;
+}

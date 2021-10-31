@@ -1,0 +1,19 @@
+.service-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-form form input,textarea{
+    width: 50%;
+    margin-bottom: 12px;
+}
+.service-form{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    background-color: silver;
+}
+.text-color{
+    color: rgb(218, 98, 77);
+}
+
